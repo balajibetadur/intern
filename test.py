@@ -47,7 +47,7 @@ def register():
         fail=0
         
         # email=input("enter email")
-        driver = webdriver.Chrome(executable_path='chromedriver.exe')
+        driver = webdriver.Chrome(executable_path='/app/.chromedriver/bin/chromedriver')
         
         try:
             # driver = webdriver.Chrome(executable_path='/Users/HP/Desktop/folders/others/chromedriver/chromedriver.exe')
